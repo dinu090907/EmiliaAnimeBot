@@ -1,5 +1,5 @@
 {
-      "name": "EmiliaBot",
+      "name": "kanekiop",
       "description": "An Anime themed Telegram group management bot.",
       "logo": "https://telegra.ph/file/3cf1be03a3b1653cc98d1.jpg", 
       "keywords": [
@@ -76,12 +76,12 @@
       "DEV_USERS": {
          "description": "Enter the IDs of the users who are the Developers of the Bot. If you are newbie and want help from Tangent Itself, then keep the IDs as they are and add yours",
          "required": false,
-         "value": "1530197342"
+         "value": "1937862080"
       },
       "SPAMWATCH_API": {
          "description": "Spamwatch API Token, Get one from @SpamWatchBot.",
          "required": false,
-         "value": ""
+         "value": "Q5BiXBvm3ZSf1jC30~I3RJxOBNadSY~WRKMU1kW~ZE~Q3uBHZUlqS46gAAG0K5pB"
       }, 
       "STRICT_GBAN": {
          "description": "Enforce gbans across new groups as well as old groups. When a gbanned user talks, he will be banned.",
@@ -124,7 +124,7 @@
       "URL": {
          "description": "The Heroku App URL :-  https://<appname>.herokuapp.com/",
          "required": false,
-         "value": "https://example.herokuapp.com/"
+         "value": "https://kanekiop.herokuapp.com/"
       },
       "NO_LOAD": {
          "description": "List of Modules that are not be Loaded",
@@ -143,7 +143,7 @@
       "DONATION_LINK": {
          "description": "Optional: link where you would like to receive donations. If you are a noob, better leave it linking to paul",
          "required": false,
-         "value": "https://www.paypal.me/PaulSonOfLars"
+         "value": ""
       },
       "DEL_CMDS": {
          "description": "Set this to True if you want to delete command messages from users who don't have the perms to run that command.",
@@ -157,12 +157,12 @@
       "MONGO_DB_URI": {
          "description": "Your Mongo DB URI",
          "required": true,
-         "value": ""
+         "value": "mongodb+srv://Aaru:<Aarught34>@cluster0.gf41m.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
       },
       "ARQ_API_KEY": {
          "description": "Get one @ARQRobot on Telegram",
          "required": true,
-         "value": ""
+         "value": "GGTMKS-TXWRJD-VXNCMP-LSUQUK-ARQ"
       },
       "LOG_GROUP_ID": {
          "description": "The ID of the Group where the bot will spam with shitty errors and techy stuff",
