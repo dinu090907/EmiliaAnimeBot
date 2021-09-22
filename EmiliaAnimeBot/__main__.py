@@ -21,7 +21,7 @@ from telegram.ext import (CallbackContext, CallbackQueryHandler, CommandHandler,
 from telegram.ext.dispatcher import DispatcherHandlerStop, run_async
 from telegram.utils.helpers import escape_markdown
 
-EMILIA_IMG = "https://telegra.ph/file/b37cec509d121c8c63518.jpg"
+EMILIA_IMG = "https://telegra.ph/file/827408b63c867a13d4d94.jpg"
 
 EMILIA_USAGE_TEXT = """
 Basic Usage Help For Emilia
@@ -64,7 +64,7 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-This is Emilia[.](https://telegra.ph/file/65fb4fdec1bd9787f01a0.jpg)
+This is Gojo[.](https://telegra.ph/file/827408b63c867a13d4d94.jpg)
 
 A Diverse Systematic Bot Written in Python.
 You can Add Me In Your Group for Knowing my True Power.
@@ -106,8 +106,8 @@ buttons = [
 
 
 HELP_STRINGS = """
-`Hey there! My name is` [Emilia!](https://telegra.ph/file/e5fc94ada18369f89c832.jpg) 
-I'm a Half Elf and help admins manage their groups with Some Powerful Features! \n`Have a look at the following for an idea of some of the things I can help you with.`"""
+`Hey there! My name is` [Gojo!](https://telegra.ph/file/827408b63c867a13d4d94.jpg) 
+I'm a Gojo Satoru the strongest  and help admins manage their groups with Some Powerful Features! \n`Have a look at the following for an idea of some of the things I can help you with.`"""
 
 DONATE_STRING = """
 Heya, glad to hear you want to donate!
@@ -223,7 +223,7 @@ def start(update: Update, context: CallbackContext):
             )
     else:
         update.effective_message.reply_photo(
-            EMILIA_IMG, caption= "<code>Emilia is Here For You❤\nI am Awake Since</code>: <code>{}</code>".format(
+            EMILIA_IMG, caption= "<code>Gojo is Here For You❤\nI am Awake Since</code>: <code>{}</code>".format(
                 uptime
             ),
             parse_mode=ParseMode.HTML,
